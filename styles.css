@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style-type: none;
+    
+}
+a {
+    text-decoration: none;
+}
+.padding {
+    padding: 0 120px;
+}
+.white {
+    color: #F9FAF8;
+}
+.gray {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.main-text {
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+    margin: 8px 0;
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+    height: 400px;
+}
+
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    gap: 15px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.presentation {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content {
+    flex: 1;
+}
+.image {
+    flex: 1;
+    background-color: rgb(168, 168, 168);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.random {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    background-color: white;
+    gap: 30px;
+    align-items: center;
+}
+.tarjetas {
+    display: flex;
+    gap: 40px;
+    
+
+}
+.illustration {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: center;
+}
+.card p {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote p {
+    font-style: italic;
+    font-size: 20px;
+}
+span {
+    font-weight: bold;
+    font-size: 13px;
+    font-style: normal;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.banner{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bloque {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 15px;
+
+}
+.signup {
+    border: 2px solid white;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+footer {
+    height: 70px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
